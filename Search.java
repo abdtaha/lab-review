@@ -13,7 +13,7 @@ public class Search {
         boolean ignoreCase = false;
         int index = 0;
 
-        // Optional -i flag
+        // Optional -i flag test
         if ("-i".equals(args[0])) {
             ignoreCase = true;
             index++;
